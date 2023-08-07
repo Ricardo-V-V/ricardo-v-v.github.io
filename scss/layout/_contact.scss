@@ -1,0 +1,13 @@
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  > span {
+    font: {
+      size: 2rem;
+      family: var(--text-font-secondary);
+      weight: 700;
+    }
+  }
+}
