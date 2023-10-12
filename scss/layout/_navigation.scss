@@ -1,0 +1,118 @@
+@use "../abstracts" as a;
+
+.navigation {
+  position: relative;
+  z-index: 1;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__brand {
+    &:link,
+    &:visited {
+      color: var(--color-white);
+      font-family: var(--text-font-secondary);
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+  }
+
+  &__links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    flex: 0 0 100%;
+    flex-direction: column;
+    gap: 1.5rem;
+    display: none;
+
+    @include a.breakpoint(sm) {
+      flex: 0 0 auto;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+    }
+  }
+
+  &__link {
+    &:link,
+    &:visited {
+      color: var(--color-white);
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:active {
+      color: var(--color-secondary);
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    @include a.breakpoint(sm) {
+      display: none;
+    }
+  }
+
+  &__icon {
+    position: relative;
+
+    &,
+    &::before,
+    &::after {
+      width: 2.5rem;
+      height: 3px;
+      background-color: var(--color-white);
+      display: inline-block;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all 0.2s;
+    }
+
+    &::before {
+      top: -0.8rem;
+    }
+    &::after {
+      top: 0.8rem;
+    }
+  }
+
+  &__checkbox {
+    display: none;
+  }
+
+  &__checkbox:checked ~ &__links {
+    display: flex;
+  }
+
+  &__checkbox:checked + &__button &__icon {
+    background-color: transparent;
+  }
+
+  &__checkbox:checked + &__button &__icon::before {
+    top: 0;
+    transform: rotate(135deg);
+  }
+
+  &__checkbox:checked + &__button &__icon::after {
+    top: 0;
+    transform: rotate(-135deg);
+  }
+}
