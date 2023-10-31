@@ -17,7 +17,14 @@
 .bg-primary {
 	background-color: var(--color-primary);
 }
-
+.bg-gradient {
+	background-image: linear-gradient(
+		to bottom right,
+		var(--color-primary),
+		var(--color-primary),
+		var(--color-secondary)
+	);
+}
 .py-3 {
 	padding-top: 3rem;
 	padding-bottom: 3rem;

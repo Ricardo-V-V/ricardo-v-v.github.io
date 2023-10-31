@@ -18,6 +18,16 @@
 	&:focus {
 		color: var(--color-white);
 		background-color: var(--color-primary);
-		transition: 0.25s;
+		transition: 0.3s ease-in-out;
+	}
+
+	&--dark {
+		&:active,
+		&:hover,
+		&:focus {
+			color: var(--color-white);
+			background-color: var(--color-dark);
+			transition: 0.3s ease-in-out;
+		}
 	}
 }
