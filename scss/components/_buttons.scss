@@ -1,22 +1,23 @@
 .btn {
-  &:link,
-  &:visited {
-    background-color: var(--color-secondary);
-    border-radius: 8px;
-    color: var(--color-white);
-    font: {
-      family: var(--text-font-secondary);
-      size: 1.125rem;
-      weight: 500;
-    }
-    padding: 0.6rem 1.5rem;
-    text-decoration: none;
-  }
+	&:link,
+	&:visited {
+		background-color: var(--color-white);
+		border-radius: 8px;
+		color: var(--color-dark);
+		font: {
+			family: var(--text-font-secondary);
+			size: 1.125rem;
+			weight: 500;
+		}
+		padding: 0.6rem 1.5rem;
+		text-decoration: none;
+	}
 
-  &:active,
-  &:hover,
-  &:focus {
-    background-color: var(--color-secondary-hover);
-    transition: 0.4s;
-  }
+	&:active,
+	&:hover,
+	&:focus {
+		color: var(--color-white);
+		background-color: var(--color-primary);
+		transition: 0.25s;
+	}
 }

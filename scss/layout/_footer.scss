@@ -1,6 +1,5 @@
 .footer {
 	&-container {
-		border-top: 1px solid var(--color-primary-medium);
 		padding-top: 2rem;
 	}
 	&-icons {
@@ -16,5 +15,17 @@
 	&-copyright {
 		text-align: center;
 		font-weight: 500;
+	}
+
+	a {
+		&:link,
+		&:visited {
+			color: var(--color-dark);
+		}
+
+		&:hover,
+		&:active {
+			color: var(--color-primary);
+		}
 	}
 }
