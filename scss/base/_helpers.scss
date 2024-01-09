@@ -17,6 +17,15 @@
 .bg-primary {
 	background-color: var(--color-primary);
 }
+
+.bg-secondary {
+	background-color: var(--color-secondary);
+}
+
+.bg-dark {
+	background-color: var(--color-dark);
+}
+
 .bg-gradient {
 	background-image: linear-gradient(
 		to bottom right,
@@ -35,6 +44,14 @@
 	padding-bottom: 6rem;
 }
 
+.pt-6 {
+	padding-top: 6rem;
+}
+
 .text-center {
 	text-align: center;
+}
+
+.text-white {
+	color: var(--color-white);
 }
