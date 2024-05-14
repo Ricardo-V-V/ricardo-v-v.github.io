@@ -1,12 +1,12 @@
 $breakpoints-up: (
-	'sm': 36em,
 	//Small devices 576px
-	'md': 48em,
+	'sm': 36em,
 	//Medium devices 768px
-	'lg': 62em,
+	'md': 48em,
 	//Large devices 992px
-	'xlg': 75em,
+	'lg': 62em,
 	//Large devices 1200px
+	'xlg': 75em
 );
 
 @mixin breakpoint($size) {

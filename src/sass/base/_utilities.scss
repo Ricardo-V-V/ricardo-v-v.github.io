@@ -1,7 +1,25 @@
-.pl {
-	padding: 60px;
-}
+@use '../abstracts/mixins' as a;
 
-.pr {
-	padding-right: 60px;
+.p {
+	&-top-lg {
+		padding-top: 3.75rem;
+	}
+	&-left-lg {
+		padding-left: 1.25rem;
+		@include a.breakpoint(sm) {
+			padding-left: 2.5rem;
+		}
+		@include a.breakpoint(lg) {
+			padding-left: 3.75rem;
+		}
+	}
+	&-right-lg {
+		padding-right: 1.25rem;
+		@include a.breakpoint(sm) {
+			padding-right: 2.5rem;
+		}
+		@include a.breakpoint(lg) {
+			padding-right: 3.75rem;
+		}
+	}
 }

@@ -1,3 +1,4 @@
+import PageContentWrap from './PageContentWrap'
 import PersonalInfo from './Personalnfo'
 
 export default function MainLayout() {
@@ -10,7 +11,9 @@ export default function MainLayout() {
 				<div className='main-col-1'>
 					<PersonalInfo />
 				</div>
-				<div className='main-col-2'>Paginas</div>
+				<div className='main-col-2'>
+					<PageContentWrap />
+				</div>
 			</div>
 		</>
 	)
