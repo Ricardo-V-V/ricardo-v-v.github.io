@@ -1,0 +1,26 @@
+.primary-regular {
+	font-family: $primary-font;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.primary-medium {
+	font-family: $primary-font;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.secondary-bold {
+	font-family: $secondary-font;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body {
+	color: $font-color;
+	font-family: $primary-font;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+}
