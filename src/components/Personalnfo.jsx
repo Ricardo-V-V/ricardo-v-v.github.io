@@ -4,8 +4,8 @@ export default function PersonalInfo() {
 			<div className='personal-info-img-wrap'>
 				<img src='https://placehold.co/240' />
 			</div>
-			<p>Ricardo Villalobos</p>
-			<p>Front-end</p>
+			<h4 className='personal-info-name color-black'>Ricardo Villalobos</h4>
+			<span className='personal-info-job color-black'>Front-end Developer</span>
 		</div>
 	)
 }

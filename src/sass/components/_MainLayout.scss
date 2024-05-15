@@ -5,26 +5,44 @@
 		display: flex;
 		flex-wrap: wrap;
 		margin: 0 auto;
-		padding: 0 15px;
-		max-width: 1290px;
+		max-width: 100%;
 		background-color: #eeeeee;
+		@include a.breakpoint(sm) {
+			max-width: 540px;
+		}
+		@include a.breakpoint(md) {
+			max-width: 720px;
+		}
+		@include a.breakpoint(lg) {
+			max-width: 1110px;
+		}
+		@include a.breakpoint(xlg) {
+			max-width: 1320px;
+		}
 	}
 	&-col-1 {
 		background-color: bisque;
 		width: 100%;
 		margin-bottom: 1.875rem;
+		padding: 0 15px;
 		@include a.breakpoint(lg) {
-			width: 33.33333333%;
-			padding-right: 0.9375rem;
+			width: 25%;
 			margin-bottom: 0;
+		}
+		@include a.breakpoint(xlg) {
+			flex: 0 0 auto;
+			width: 33.33333333%;
 		}
 	}
 	&-col-2 {
 		width: 100%;
 		background-color: cadetblue;
+		padding: 0 15px;
 		@include a.breakpoint(lg) {
+			width: 75%;
+		}
+		@include a.breakpoint(xlg) {
 			width: 66.66666667%;
-			padding-left: 0.9375rem;
 		}
 	}
 }

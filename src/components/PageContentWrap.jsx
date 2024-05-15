@@ -1,10 +1,11 @@
-export default function PageContentWrap({ children, pageTitle = 'No Title' }) {
+import { Outlet } from 'react-router-dom'
+import Footer from './Footer'
+
+export default function PageContentWrap() {
 	return (
 		<div className='page-content-wrap'>
-			<div className='p-top-lg p-left-lg p-right-lg'>
-				<h1 className='page-content-title'>{pageTitle}</h1>
-			</div>
-			{children}
+			<Outlet />
+			<Footer />
 		</div>
 	)
 }
