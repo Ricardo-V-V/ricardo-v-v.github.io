@@ -8,7 +8,7 @@ export default function AboutCards() {
 				<Card bgColor={'#fff4f4'}>
 					{/* Build Icon Cards */}
 					<IconCard
-						title={'Ui/Ux Design'}
+						title={'React Development'}
 						description={
 							'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.'
 						}
@@ -17,7 +17,7 @@ export default function AboutCards() {
 				</Card>
 				<Card bgColor={'#eef5fa'}>
 					<IconCard
-						title={'App Development'}
+						title={'Ui/Ux Design'}
 						description={
 							'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.'
 						}
@@ -28,7 +28,7 @@ export default function AboutCards() {
 			<div className='cards-grid-col-2'>
 				<Card bgColor={'#eef5fa'}>
 					<IconCard
-						title={'App Development'}
+						title={'Ui/Ux Design'}
 						description={
 							'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.'
 						}

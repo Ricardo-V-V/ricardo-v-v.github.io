@@ -1,3 +1,4 @@
+import { FaLinkedinIn, FaEnvelopeOpenText, FaGithub } from 'react-icons/fa'
 export default function SocialLinks() {
 	return (
 		<ul className='personal-info-social-links'>
@@ -7,7 +8,7 @@ export default function SocialLinks() {
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					G
+					<FaGithub size='20px' color='#1f2328' />
 				</a>
 			</li>
 			<li>
@@ -16,7 +17,7 @@ export default function SocialLinks() {
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					M
+					<FaEnvelopeOpenText size='20px' color='#E93B81' />
 				</a>
 			</li>
 			<li>
@@ -25,7 +26,7 @@ export default function SocialLinks() {
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					I
+					<FaLinkedinIn size={'20px'} color='#144679' />
 				</a>
 			</li>
 		</ul>
