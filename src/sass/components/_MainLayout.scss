@@ -14,7 +14,7 @@
 			max-width: 720px;
 		}
 		@include a.breakpoint(lg) {
-			max-width: 1110px;
+			max-width: 960px;
 		}
 		@include a.breakpoint(xlg) {
 			max-width: 1320px;
@@ -25,10 +25,6 @@
 		width: 100%;
 		margin-bottom: 1.875rem;
 		padding: 0 15px;
-		@include a.breakpoint(lg) {
-			width: 25%;
-			margin-bottom: 0;
-		}
 		@include a.breakpoint(xlg) {
 			flex: 0 0 auto;
 			width: 33.33333333%;
@@ -38,9 +34,6 @@
 		width: 100%;
 		background-color: cadetblue;
 		padding: 0 15px;
-		@include a.breakpoint(lg) {
-			width: 75%;
-		}
 		@include a.breakpoint(xlg) {
 			width: 66.66666667%;
 		}
