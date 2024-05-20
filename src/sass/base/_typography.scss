@@ -58,3 +58,20 @@ body {
 	font-weight: 400;
 	line-height: 1.6875;
 }
+
+h2 {
+	color: $color-black;
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	margin: 0;
+	@include a.breakpoint(md) {
+		font-size: 1.75rem;
+	}
+	@include a.breakpoint(lg) {
+		font-size: 1.5rem;
+	}
+	@include a.breakpoint(xlg) {
+		font-size: 1.75rem;
+	}
+}

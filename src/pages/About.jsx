@@ -1,3 +1,4 @@
+import AboutCards from '../components/AboutCards'
 import PageIntro from '../components/PageIntro'
 
 export default function About() {
@@ -14,6 +15,10 @@ export default function About() {
 					creative way. I created web design for many famous brand companies.
 				</p>
 			</PageIntro>
+			<section className='p-left-lg p-right-lg'>
+				<h2 className='mb-30'>What I do!</h2>
+				<AboutCards />
+			</section>
 		</>
 	)
 }
