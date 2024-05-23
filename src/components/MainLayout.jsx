@@ -1,13 +1,12 @@
+import Header from './Header'
 import PageContentWrap from './PageContentWrap'
 import PersonalInfo from './Personalnfo'
 
 export default function MainLayout() {
 	return (
 		<>
-			<p style={{ backgroundColor: 'red', margin: 0, padding: '30px' }}>
-				H1 Navbar and Logo
-			</p>
-			<div className='main-container'>
+			<Header />
+			<div className='main-container pt-50'>
 				<div className='main-col-1'>
 					<PersonalInfo />
 				</div>
