@@ -3,7 +3,7 @@ import IconCard from './IconCard'
 
 export default function AboutCards() {
 	return (
-		<div className='cards-grid mb-30'>
+		<div className='cards-grid'>
 			<div className='cards-grid-col-1'>
 				<Card bgColor={'#fff4f4'}>
 					{/* Build Icon Cards */}

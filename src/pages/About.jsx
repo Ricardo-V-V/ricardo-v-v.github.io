@@ -1,5 +1,6 @@
 import AboutCards from '../components/AboutCards'
 import PageIntro from '../components/PageIntro'
+import SkillsSlider from '../components/SkillsSlider'
 
 export default function About() {
 	return (
@@ -18,6 +19,10 @@ export default function About() {
 			<section className='p-left-lg p-right-lg'>
 				<h2 className='mb-30'>What I do!</h2>
 				<AboutCards />
+			</section>
+			<section className='skills-container p-left-lg p-right-lg'>
+				<h2 className='mb-30'>Skills</h2>
+				<SkillsSlider />
 			</section>
 		</>
 	)
