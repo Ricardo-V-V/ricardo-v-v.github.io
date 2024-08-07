@@ -11,6 +11,7 @@ export default function SkillsSlider() {
 				<SkillSlide name='React' />
 				<SkillSlide name='Bootstrap' />
 				<SkillSlide name='Git' />
+				<SkillSlide name='Github' />
 				<SkillSlide name='PostgreSQL' />
 				<SkillSlide name='Python' />
 
@@ -21,6 +22,7 @@ export default function SkillsSlider() {
 				<SkillSlide name='React' />
 				<SkillSlide name='Bootstrap' />
 				<SkillSlide name='Git' />
+				<SkillSlide name='Github' />
 				<SkillSlide name='PostgreSQL' />
 				<SkillSlide name='Python' />
 			</div>

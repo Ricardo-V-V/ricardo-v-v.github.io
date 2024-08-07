@@ -7,13 +7,17 @@ export default function About() {
 		<>
 			<PageIntro title='About'>
 				<p>
-					Im Creative Director and UI/UX Designer from Sydney, Australia,
-					working in web development and print media. I enjoy turning complex
-					problems into simple, beautiful and intuitive designs.
+					I’m Front-end Developer from Alajuela, Costa Rica, passionate about
+					coding and building things for the web. I currently work as a Web
+					Content Developer, where I also take on the role of a Technical Lead.
 				</p>
 				<p>
-					My aim is to bring across your message and identity in the most
-					creative way. I created web design for many famous brand companies.
+					My focus these days is to improve my professional background working
+					with challenging front-end technologies such as Javascript and React.
+				</p>
+				<p>
+					When I’m not at the computer, I’m usually at the gym, hanging out with
+					my wife or doing home repairs.
 				</p>
 			</PageIntro>
 			<section className='p-left-lg p-right-lg'>
