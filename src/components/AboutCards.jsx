@@ -8,20 +8,20 @@ export default function AboutCards() {
 				<Card bgColor={'#fff4f4'}>
 					{/* Build Icon Cards */}
 					<IconCard
-						title={'React Development'}
+						title={'Web Development'}
 						description={
-							'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.'
+							'I bring hands-on experience with HTML, CSS, Bootstrap, Sass, Git, Javascript, React an more.'
 						}
-						icon={'U'}
+						name={'Web Development'}
 					/>
 				</Card>
 				<Card bgColor={'#eef5fa'}>
 					<IconCard
-						title={'Ui/Ux Design'}
+						title={'Internet Marketing'}
 						description={
-							'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.'
+							'I’ve strong experience working in online marketing and search engine optimization SEO.'
 						}
-						icon={'A'}
+						name={'Internet Marketing'}
 					/>
 				</Card>
 			</div>
@@ -30,19 +30,19 @@ export default function AboutCards() {
 					<IconCard
 						title={'Ui/Ux Design'}
 						description={
-							'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.'
+							'I enjoy working closely with design teams to help them bring their projects to life.'
 						}
-						icon={'A'}
+						name={'Web Design'}
 					/>
 				</Card>
 				<Card bgColor={'#fff4f4'}>
 					{/* Build Icon Cards */}
 					<IconCard
-						title={'Ui/Ux Design'}
+						title={'Software Engineer'}
 						description={
-							'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.'
+							'I’m an advanced software engineering student with a strong coding background.'
 						}
-						icon={'U'}
+						name={'Book'}
 					/>
 				</Card>
 			</div>
