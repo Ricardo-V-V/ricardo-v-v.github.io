@@ -6,7 +6,6 @@ export default function AboutCards() {
 		<div className='cards-grid'>
 			<div className='cards-grid-col-1'>
 				<Card bgColor={'#fff4f4'}>
-					{/* Build Icon Cards */}
 					<IconCard
 						title={'Web Development'}
 						description={
@@ -36,7 +35,6 @@ export default function AboutCards() {
 					/>
 				</Card>
 				<Card bgColor={'#fff4f4'}>
-					{/* Build Icon Cards */}
 					<IconCard
 						title={'Software Engineer'}
 						description={
