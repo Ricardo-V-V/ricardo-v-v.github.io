@@ -1,6 +1,9 @@
-export default function Card({ children, bgColor }) {
+export default function Card({ children, bgColor, animation = '' }) {
 	return (
-		<div className='card-wrap' style={{ backgroundColor: bgColor }}>
+		<div
+			className={`card-wrap ${animation}`}
+			style={{ backgroundColor: bgColor }}
+		>
 			{children}
 		</div>
 	)

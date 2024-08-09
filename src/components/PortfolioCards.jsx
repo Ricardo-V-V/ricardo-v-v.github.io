@@ -4,7 +4,7 @@ export default function PortfolioCards() {
 	return (
 		<div className='cards-grid'>
 			<div className='cards-grid-col-1'>
-				<Card bgColor={'#fff4f4'}>
+				<Card bgColor={'#fff4f4'} animation='scale-up-center'>
 					<p className='portfolio-card-tech'>
 						HTML, CSS, Javascript, React, Sass
 					</p>
@@ -21,7 +21,7 @@ export default function PortfolioCards() {
 						</a>
 					</div>
 				</Card>
-				<Card bgColor={'#eef5fa'}>
+				<Card bgColor={'#eef5fa'} animation='scale-up-center'>
 					<p className='portfolio-card-tech'>HTML, CSS, Javascript</p>
 					<h4 className='mb-10'>Clínica Phillips</h4>
 					<div className='portfolio-card-links'>
@@ -32,7 +32,7 @@ export default function PortfolioCards() {
 				</Card>
 			</div>
 			<div className='cards-grid-col-2'>
-				<Card bgColor={'#eef5fa'}>
+				<Card bgColor={'#eef5fa'} animation='scale-up-center'>
 					<p className='portfolio-card-tech'>
 						HTML, CSS, Javascript, React, Sass, Bootstrap
 					</p>
@@ -52,7 +52,7 @@ export default function PortfolioCards() {
 						</a>
 					</div>
 				</Card>
-				<Card bgColor={'#fff4f4'}>
+				<Card bgColor={'#fff4f4'} animation='scale-up-center'>
 					<p className='portfolio-card-tech'>HTML, CSS</p>
 					<h4 className='mb-10'>HTML Email</h4>
 					<div className='portfolio-card-links'>
