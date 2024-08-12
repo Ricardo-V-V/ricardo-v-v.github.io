@@ -53,6 +53,5 @@ Builds the app for production to the `build` folder.
 
 ## License
 
-- This project was created inspired by the following bootstrap template: https://bostami-bootstrap-nextjs.vercel.app/
 - Images and design are owned by their authors.
 - This app is not intended for commercial use. It was build for educational purposes only.
