@@ -5,6 +5,17 @@ export default function PortfolioCards() {
 		<div className='cards-grid'>
 			<div className='cards-grid-col-1'>
 				<Card bgColor={'#fff4f4'} animation='scale-up-center'>
+					<div
+						className='portfolio-card-img-container mb-10'
+						style={{ backgroundColor: '#ffd296' }}
+					>
+						<img
+							src={`src/img/portfolio.png`}
+							alt={'Portfolio Website'}
+							width={'150px'}
+							height={'auto'}
+						/>
+					</div>
 					<p className='portfolio-card-tech'>
 						HTML, CSS, Javascript, React, Sass
 					</p>
@@ -22,6 +33,17 @@ export default function PortfolioCards() {
 					</div>
 				</Card>
 				<Card bgColor={'#eef5fa'} animation='scale-up-center'>
+					<div
+						className='portfolio-card-img-container mb-10'
+						style={{ backgroundColor: '#3babfe' }}
+					>
+						<img
+							src={`src/img/hospital.png`}
+							alt={'Clínica Phillips'}
+							width={'150px'}
+							height={'auto'}
+						/>
+					</div>
 					<p className='portfolio-card-tech'>HTML, CSS, Javascript</p>
 					<h4 className='mb-10'>Clínica Phillips</h4>
 					<div className='portfolio-card-links'>
@@ -33,6 +55,17 @@ export default function PortfolioCards() {
 			</div>
 			<div className='cards-grid-col-2'>
 				<Card bgColor={'#eef5fa'} animation='scale-up-center'>
+					<div
+						className='portfolio-card-img-container mb-10'
+						style={{ backgroundColor: '#ffd2ea' }}
+					>
+						<img
+							src={`src/img/shopping.png`}
+							alt={'Shopping Cart App'}
+							width={'150px'}
+							height={'auto'}
+						/>
+					</div>
 					<p className='portfolio-card-tech'>
 						HTML, CSS, Javascript, React, Sass, Bootstrap
 					</p>
@@ -53,6 +86,17 @@ export default function PortfolioCards() {
 					</div>
 				</Card>
 				<Card bgColor={'#fff4f4'} animation='scale-up-center'>
+					<div
+						className='portfolio-card-img-container mb-10'
+						style={{ backgroundColor: '#ffd554' }}
+					>
+						<img
+							src={`src/img/email-template.png`}
+							alt={'HTML Email Template'}
+							width={'150px'}
+							height={'auto'}
+						/>
+					</div>
 					<p className='portfolio-card-tech'>HTML, CSS</p>
 					<h4 className='mb-10'>HTML Email</h4>
 					<div className='portfolio-card-links'>

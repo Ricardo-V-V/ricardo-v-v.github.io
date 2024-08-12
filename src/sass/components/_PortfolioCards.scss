@@ -17,4 +17,12 @@
 		flex-wrap: wrap;
 		gap: 16px;
 	}
+	&-img-container {
+		padding: 2rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: $border-radius-md;
+		margin-bottom: 1.5rem;
+	}
 }
