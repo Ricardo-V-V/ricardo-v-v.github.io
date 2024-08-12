@@ -1,0 +1,18 @@
+@use '../abstracts/mixins' as a;
+.icon-card {
+	&-wrap {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		@include a.breakpoint(sm) {
+			flex-direction: row;
+		}
+	}
+	&-icon {
+		min-width: 40px;
+		align-self: center;
+		@include a.breakpoint(sm) {
+			align-self: self-start;
+		}
+	}
+}

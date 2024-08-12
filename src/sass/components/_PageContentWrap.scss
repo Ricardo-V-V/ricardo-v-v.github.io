@@ -1,0 +1,31 @@
+@use '../abstracts/mixins' as a;
+
+.page-content {
+	&-wrap {
+		background-color: $color-white;
+		border-radius: $border-radius-lg;
+		width: 100%;
+		box-shadow: $box-shadow;
+	}
+	&-title {
+		&::after {
+			content: '';
+			position: absolute;
+			display: block;
+			width: 70%;
+			height: 3px;
+			background-color: $color-primary;
+			left: 122%;
+			top: 50%;
+			border-radius: 5px;
+			margin-bottom: 30px;
+			transform: translatey(-50%);
+			@include a.breakpoint(sm) {
+				width: 100%;
+			}
+			@include a.breakpoint(md) {
+				width: 200px;
+			}
+		}
+	}
+}

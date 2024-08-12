@@ -1,0 +1,42 @@
+@use '../abstracts/mixins' as a;
+
+.p {
+	&-top-lg {
+		padding-top: 3.75rem;
+	}
+	&-left-lg {
+		padding-left: 1.25rem;
+		@include a.breakpoint(sm) {
+			padding-left: 2.5rem;
+		}
+		@include a.breakpoint(lg) {
+			padding-left: 3.75rem;
+		}
+	}
+	&-right-lg {
+		padding-right: 1.25rem;
+		@include a.breakpoint(sm) {
+			padding-right: 2.5rem;
+		}
+		@include a.breakpoint(lg) {
+			padding-right: 3.75rem;
+		}
+	}
+}
+
+.color-black {
+	color: $color-black;
+}
+
+.mb-0 {
+	margin-bottom: 0;
+}
+.mb-10 {
+	margin-bottom: 0.6255rem;
+}
+.mb-30 {
+	margin-bottom: 1.875rem;
+}
+.pt-50 {
+	padding-top: 50px;
+}
