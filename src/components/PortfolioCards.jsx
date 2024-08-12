@@ -10,7 +10,7 @@ export default function PortfolioCards() {
 						style={{ backgroundColor: '#ffd296' }}
 					>
 						<img
-							src={`img/portfolio.png`}
+							src={`/img/portfolio.png`}
 							alt={'Portfolio Website'}
 							width={'150px'}
 							height={'auto'}
@@ -38,7 +38,7 @@ export default function PortfolioCards() {
 						style={{ backgroundColor: '#3babfe' }}
 					>
 						<img
-							src={`img/hospital.png`}
+							src={`/img/hospital.png`}
 							alt={'Clínica Phillips'}
 							width={'150px'}
 							height={'auto'}
@@ -60,7 +60,7 @@ export default function PortfolioCards() {
 						style={{ backgroundColor: '#ffd2ea' }}
 					>
 						<img
-							src={`img/shopping.png`}
+							src={`/img/shopping.png`}
 							alt={'Shopping Cart App'}
 							width={'150px'}
 							height={'auto'}
@@ -91,7 +91,7 @@ export default function PortfolioCards() {
 						style={{ backgroundColor: '#ffd554' }}
 					>
 						<img
-							src={`img/email-template.png`}
+							src={`/img/email-template.png`}
 							alt={'HTML Email Template'}
 							width={'150px'}
 							height={'auto'}

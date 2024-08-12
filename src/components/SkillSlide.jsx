@@ -3,7 +3,7 @@ export default function SkillSlide({ name }) {
 		<div className='skills-slide'>
 			<img
 				className='mb-10'
-				src={`img/${name}-logo.png`}
+				src={`/img/${name}-logo.png`}
 				alt={name}
 				width={'64px'}
 				height={'auto'}
