@@ -3,7 +3,7 @@ export default function IconCard({ title, description, name }) {
 		<div className='icon-card-wrap'>
 			<div className='personal-info-menu-icon icon-card-icon'>
 				<img
-					src={`src/img/${name}-icon.png`}
+					src={`img/${name}-icon.png`}
 					alt={`${name} icon`}
 					width={'40px'}
 					height={'auto'}
