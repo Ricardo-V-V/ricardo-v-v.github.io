@@ -8,7 +8,7 @@ export default function SkillSlide({ name }) {
 				width={'64px'}
 				height={'auto'}
 			/>
-			<div className='color-black'>{name}</div>
+			<div>{name}</div>
 		</div>
 	)
 }

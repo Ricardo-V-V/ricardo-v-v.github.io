@@ -8,7 +8,7 @@ export default function SocialLinks() {
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					<FaGithub size='20px' color='#1f2328' />
+					<FaGithub size='20px' color='#1c5cd8' />
 				</a>
 			</li>
 			<li>
@@ -17,7 +17,7 @@ export default function SocialLinks() {
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					<FaEnvelopeOpenText size='20px' color='#E93B81' />
+					<FaEnvelopeOpenText size='20px' color='#1c5cd8' />
 				</a>
 			</li>
 			<li>
@@ -26,7 +26,7 @@ export default function SocialLinks() {
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					<FaLinkedinIn size={'20px'} color='#144679' />
+					<FaLinkedinIn size={'20px'} color='#1c5cd8' />
 				</a>
 			</li>
 		</ul>

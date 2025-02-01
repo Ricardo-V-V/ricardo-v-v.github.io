@@ -15,12 +15,12 @@ export default function About() {
 					My focus these days is to improve my professional background working
 					with challenging front-end technologies such as Javascript and React.
 				</p>
-				<p>
+				<p className='mb-30'>
 					When I’m not at the computer, I’m usually at the gym, hanging out with
 					my wife or doing home repairs.
 				</p>
 			</PageIntro>
-			<section className='p-left-lg p-right-lg'>
+			<section className='p-left-lg p-right-lg mb-30'>
 				<h2 className='mb-30'>What I do!</h2>
 				<AboutCards />
 			</section>

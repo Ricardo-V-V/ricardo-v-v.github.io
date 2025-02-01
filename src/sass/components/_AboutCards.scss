@@ -1,0 +1,13 @@
+@use '../abstracts/mixins' as a;
+
+.about-cards {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.5rem;
+	@include a.breakpoint(md) {
+		row-gap: 2rem;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}

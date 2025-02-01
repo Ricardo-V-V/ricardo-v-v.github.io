@@ -8,11 +8,4 @@
 			flex-direction: row;
 		}
 	}
-	&-icon {
-		min-width: 40px;
-		align-self: center;
-		@include a.breakpoint(sm) {
-			align-self: self-start;
-		}
-	}
 }
